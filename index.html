@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Name</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <span class="nav-logo">LOGO</span>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">Indicators</a></li>
+
+          <li class="nav-item"><a href="#" class="nav-link">Reports</a></li>
+
+          <li class="nav-item nav-item--course">
+            <a class="nav-link nav-link--course"
+              >Courses
+              <ion-icon
+                class="dropdown-icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </a>
+
+            <ul class="course-list">
+              <li class="course-list-item">
+                <a href="#" class="course-list-link">Course 1</a>
+              </li>
+
+              <li class="course-list-item">
+                <a href="#" class="course-list-link">Course 2</a>
+              </li>
+
+              <li class="course-list-item">
+                <a href="#" class="course-list-link">Course 3</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+
+          <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-btn">
+        <ion-icon class="nav-icon menu-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="nav-icon close-icon" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="heading-box">
+          <h1 class="heading-primary">
+            Designed to <br />
+            <div class="container">
+              <span class="heading-primary--main">Earn you Money</span>
+            </div>
+          </h1>
+
+          <p class="heading-text">
+            TOP TIER TRADING INDICATORS DEVELOPED SPECIFICALLY TO ENHANCE YOUR
+            TRADING EXPERIENCE.
+          </p>
+
+          <div class="btn-box">
+            <button class="btn btn-main">Buy Now</button>
+
+            <button class="btn btn-side">Learn More</button>
+          </div>
+        </div>
+
+        <div class="media-box">
+          <div class="img-box">
+            <img class="hero-img" src="img/monitor.png" />
+          </div>
+
+          <video
+            autoplay
+            loop
+            muted
+            class="hero-video"
+            type="video/mp4"
+            src="vid/title.mp4"
+          ></video>
+        </div>
+      </section>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
